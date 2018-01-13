@@ -27,7 +27,7 @@ public class SpringDynamicCronTask implements SchedulingConfigurer {
     private static String cron;
 
     public SpringDynamicCronTask() {
-        cron = "0/5 * * * * ?";
+        cron = "* * 1 * * ?";
 
         // 开启新线程模拟外部更改了任务执行周期
         new Thread(new Runnable() {
@@ -39,7 +39,7 @@ public class SpringDynamicCronTask implements SchedulingConfigurer {
                     e.printStackTrace();
                 }
 
-                cron = "0/10 * * * * ?";
+                cron = "* * 1 * * ?";
                 System.err.println("cron change to: " + cron);
             }
         }).start();
