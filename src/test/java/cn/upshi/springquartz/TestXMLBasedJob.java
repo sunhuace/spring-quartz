@@ -12,7 +12,14 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class TestXMLBasedJob {
 
     public static void main(String[] args) {
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
+        //ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
+        System.out.println("this is the beginning of the garden tour!!");
+        String s = "abcdefghigklmnopgrst";
+        System.out.println(s.length());
+        //DEVELOPOER
+        // DDDDDDDDDDDDDDDDDDDDDDDDDdddVIIOIOIOOPPPP)Y/yohiiiiiiERRRRRRRRRRqwqwwrrwrew><><><><<>>>>>>>>>>><>>>>>>>>>>>>>>>>>>>>>><>><<>>><
+        //<><><><><><>HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJJJJJJJJJJJJLLLLLLLLLLLLLLLLLLLPPPPPPPPPPPPPPPPPPPPPPMLMMMMMMMMMMMMMMMMMMB
+        //<><><><<><<><<><><<><>>
+        //^^^^^^^^^^^^^^^^^^&&&&&&&&&&&&&&&&%^%^^%^^^%^#$#$!@@##!@@#@!@@#@###@#@@
     }
-
 }

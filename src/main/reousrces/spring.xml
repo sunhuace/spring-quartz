@@ -23,6 +23,7 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd http://www.
         <!-- 指定Job执行的方法 -->
         <property name="targetMethod" value="execute"/>
     </bean>
+    
     <!-- Job的触发器 -->
     <bean id="jobTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
         <property name="jobDetail" ref="jobDetail"/>
